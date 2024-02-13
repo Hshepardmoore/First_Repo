@@ -1,0 +1,33 @@
+---
+title: "Data Science for Public Policy"
+subtitle: "Assignment XX"
+author: "Name - NetID"
+execute:
+  warning: false
+format:
+  html:
+    embed-resources: true
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+# Exercise 01
+View(storms)
+
+```{r}
+storms %>%
+  ggplot(mapping= aes(x= year)) +
+  geom_histogram()
+
+```
+
+# Exercise 02
+
+```{r}
+
+
+```
+
